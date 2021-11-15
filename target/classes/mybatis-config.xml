@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis 核心配置文件-->
+<configuration>
+    <mappers>
+<!--本来是需要在此处注册Mapper接口，现在由spring托管-->
+
+
+    </mappers>
+</configuration>
