@@ -23,4 +23,8 @@
     <bean id="imageServiceImpl" class="ouc.bird.service.ImageServiceImpl">
         <property name="imageMapper" ref="imageMapper"/>
     </bean>
+    <!--    提交反馈-->
+    <bean id="feedbackServiceImpl" class="ouc.bird.service.FeedbackServiceImpl">
+        <property name="feedbackMapper" ref = "feedbackMapper"/>
+    </bean>
 </beans>
