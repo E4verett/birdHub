@@ -15,4 +15,12 @@
     <!--       自动扫描包，使指定包中的注解生效 -->
     <context:component-scan base-package="ouc.bird.service"/>
 <!--    将所有的业务类注入到spring容器中-->
+    <!--    网页访问-->
+    <bean id="visitServiceImpl" class="ouc.bird.service.VisitServiceImpl">
+        <property name="visitMapper" ref="visitMapper"/>
+    </bean>
+    <!--    图片上传-->
+    <bean id="imageServiceImpl" class="ouc.bird.service.ImageServiceImpl">
+        <property name="imageMapper" ref="imageMapper"/>
+    </bean>
 </beans>
